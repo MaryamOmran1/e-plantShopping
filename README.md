@@ -69,31 +69,34 @@ e-plantShopping/
 ├── package.json
 └── README.md
 
-🚀 Getting Started
+-------
+
+
+## 🚀 Getting Started
 Follow these steps to get a local copy up and running on your machine:
  
-1. 🚀 Getting Started
+# 1. 🚀 Getting Started
 Follow these steps to get a local copy up and running on your machine:
 git clone [https://github.com/MaryamOmran1/e-plantShopping.git](https://github.com/MaryamOmran1/e-plantShopping.git)
 cd e-plantShopping
 
-2. Install dependencies:
+# 2. Install dependencies:
 npm install
 
-3. Run the development server:
+# 3. Run the development server:
 npm start
 
 
 Open ⁠http://localhost:3000⁠ to view the application in your browser.
 
-🧩 Key Components Overview 
-App.jsx⁠: Manages state-driven navigation across the Landing Page, Product Listing, and Cart Page.
- ⁠AboutUs.jsx⁠: Displays company information and background on the landing view.
- ⁠ProductList.jsx⁠: Renders plant data by category and dispatches ⁠addItem⁠ Redux actions when items are selected.
- ⁠CartSlice.jsx⁠: Defines the Redux slice for the cart state with reducers:
- ⁠addItem⁠: Adds or increments an item in the cart array.
- ⁠removeItem⁠: Filters out an item by ID.
- ⁠updateQuantity⁠: Updates the quantity for a given item.
- ⁠CartItem.jsx⁠: Renders cart items with quantity controls, subtotal calculations, and checkout buttons.
-📄 License
-This project is licensed under the Apache 2.0 License.
+## 🧩 Key Components Overview 
+## App.jsx⁠: Manages state-driven navigation across the Landing Page, Product Listing, and Cart Page.
+AboutUs.jsx⁠: Displays company information and background on the landing view.
+⁠ProductList.jsx⁠: Renders plant data by category and dispatches ⁠addItem⁠ Redux actions when items are selected.
+⁠CartSlice.jsx⁠: Defines the Redux slice for the cart state with reducers:
+⁠addItem⁠: Adds or increments an item in the cart array.
+⁠removeItem⁠: Filters out an item by ID. ⁠updateQuantity⁠: Updates the quantity for a given item.
+CartItem.jsx⁠: Renders cart items with quantity controls, subtotal calculations, and checkout buttons.
+
+## 📄 License
+This project is licensed under **the Apache 2.0 License.** 
