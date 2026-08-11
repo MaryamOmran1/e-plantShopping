@@ -49,29 +49,6 @@ An online shopping application for a plant nursery (**Paradise Nursery**) offeri
 - **Git & GitHub** for version control and hosting
 
 ---
-
-## 📁 Project Structure
-
-```text
-e-plantShopping/
-├── public/
-│   └── index.html
-├── src/
-│   ├── components/
-│   │   ├── AboutUs.jsx       # Landing page introduction component
-│   │   ├── ProductList.jsx   # Product listing and categories component
-│   │   └── CartItem.jsx      # Shopping cart display and controls component
-│   ├── redux/
-│   │   └── CartSlice.jsx     # Redux slice for managing cart state and reducers
-│   ├── App.css               # Main application styles
-│   ├── App.jsx               # Root component handling layout and navigation state
-│   └── index.js              # Application entry point with Redux Provider setup
-├── package.json
-└── README.md
-
--------
-
-
 ## 🚀 Getting Started
 Follow these steps to get a local copy up and running on your machine:
  
@@ -94,9 +71,24 @@ Open ⁠http://localhost:3000⁠ to view the application in your browser.
 AboutUs.jsx⁠: Displays company information and background on the landing view.
 ⁠ProductList.jsx⁠: Renders plant data by category and dispatches ⁠addItem⁠ Redux actions when items are selected.
 ⁠CartSlice.jsx⁠: Defines the Redux slice for the cart state with reducers:
-⁠addItem⁠: Adds or increments an item in the cart array.
-⁠removeItem⁠: Filters out an item by ID. ⁠updateQuantity⁠: Updates the quantity for a given item.
 CartItem.jsx⁠: Renders cart items with quantity controls, subtotal calculations, and checkout buttons.
 
-## 📄 License
-This project is licensed under **the Apache 2.0 License.** 
+
+## 📁 Project Structure
+
+```text
+e-plantShopping/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   ├── AboutUs.jsx       # Landing page introduction component
+│   │   ├── ProductList.jsx   # Product listing and categories component
+│   │   └── CartItem.jsx      # Shopping cart display and controls component
+│   ├── redux/
+│   │   └── CartSlice.jsx     # Redux slice for managing cart state and reducers
+│   ├── App.css               # Main application styles
+│   ├── App.jsx               # Root component handling layout and navigation state
+│   └── index.js              # Application entry point with Redux Provider setup
+├── package.json
+└── README.md
